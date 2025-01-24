@@ -2,6 +2,7 @@ body {
     background-color: pink;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 a {
     color: purple;
 }
@@ -24,7 +25,6 @@ h1 {
     
 }
 
-
 .form-container {
     padding: 15px 20px;
     background-color: white;
@@ -40,7 +40,7 @@ form {
 
 .instruction {
     padding: 16px;
-    border: 1px solid red;
+    border: 1px solid rgb(228, 87, 177);
     width: 80%;
     font-size: 16px;
     border-radius: 50px;
@@ -54,6 +54,7 @@ form {
     opacity: 0.6;
     font-size: 12px;
 }
+
 .submit-button {
     margin-left: 10px;
     background-color: pink;
@@ -79,13 +80,15 @@ form {
     display: none;
 }
 
+.poem strong{
+    color:red;
+}
+
 footer{
     text-align: center;
     font-size: 13px;
     margin-top: 30px;
 }
-
-
 
 .generating {
     animation: blink-animation 1s steps(5, start) infinite;
