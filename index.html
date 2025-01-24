@@ -7,16 +7,23 @@
     <title>Poem Generator</title>
 </head>
 <body>
-    <header>AI poem generator</header>
+    <div class="container">
+    <header> <h1>AI poem generator</h1></header>
     <main>
         <form>
-            <input type="text" placeholder="Enter the topic of the poem" autofocus required autocomplete="off" />
-            <input type="submit"/>
+            <input type="text" 
+            placeholder="Enter the topic of the poem" 
+            autofocus 
+            required 
+            autocomplete="off"
+            class="instruction" />
+            <input type="submit"
+            class="submit-button"/>
         </form>
-        <div>
+        <div class="poem">
             The poem will go here 
-            <br/>
-            the poem will go here 
+            <br />
+            The poem will go here 
         </div>
     </main>
 
@@ -30,7 +37,7 @@
         <a href="https://eloquent-dasik-f33e90.netlify.app" target="_blank"> Netlify </a>
 
     </footer>
-
+</div>
     <script src="src/index.js"></script>
 </body>
 </html>
